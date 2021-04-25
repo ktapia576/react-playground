@@ -1,15 +1,13 @@
-import Footer from "./Footer";
 import Welcome from "./Welcome";
+import HelloWorld from "./HelloWorld";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <Welcome name="Kevin"/>
-      <p> Hello World! </p>
-      <ul> 
-        <li>This is test </li>
-        <li>I like rock climbing</li>
-      </ul>
+      <Welcome name="Lukas"/>
+      <HelloWorld />
       <Footer />
     </div>
   );

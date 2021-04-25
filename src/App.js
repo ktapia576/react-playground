@@ -1,8 +1,10 @@
 import Footer from "./Footer";
+import Welcome from "./Welcome";
 
 function App() {
   return (
     <div className="App">
+      <Welcome name="Kevin"/>
       <p> Hello World! </p>
       <ul> 
         <li>This is test </li>

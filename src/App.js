@@ -1,6 +1,7 @@
 import Welcome from "./Welcome";
 import HelloWorld from "./HelloWorld";
 import Comment from "./Comment";
+import Clock from "./Clock";
 import Footer from "./Footer";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Welcome name="Lukas"/>
       <HelloWorld />
       <Comment date={comment.date} text={comment.text} author={comment.author} />
+      <Clock />
       <Footer />
     </div>
   );

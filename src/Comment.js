@@ -1,5 +1,5 @@
 import UserInfo from "./UserInfo";
-import formatDate from "./Utils/formatDate";
+import { formatDate } from "./Utils/helpers";
 
 function Comment(props) {
     return (

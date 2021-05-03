@@ -2,7 +2,8 @@ import Welcome from "./Welcome";
 import HelloWorld from "./HelloWorld";
 import Comment from "./Comment";
 import Clock from "./Clock";
-import Toggle from ".//Toggle";
+import Toggle from "./Toggle";
+import NumberList from "./NumberList";
 import Footer from "./Footer";
 
 function App() {
@@ -14,10 +15,13 @@ function App() {
       <Comment date={comment.date} text={comment.text} author={comment.author} />
       <Clock />
       <Toggle />
+      <NumberList numbers={numbers} />
       <Footer />
     </div>
   );
 }
+
+const numbers = [4,3,1,7,6];
 
 // Test Data
 const comment = {

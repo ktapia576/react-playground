@@ -4,6 +4,7 @@ import Comment from "./Comment";
 import Clock from "./Clock";
 import Toggle from "./Toggle";
 import NumberList from "./NumberList";
+import NameForm from "./NameForm";
 import Footer from "./Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Clock />
       <Toggle />
       <NumberList numbers={numbers} />
+      <NameForm />
       <Footer />
     </div>
   );

@@ -5,6 +5,7 @@ import Clock from "./Clock";
 import Toggle from "./Toggle";
 import NumberList from "./NumberList";
 import NameForm from "./NameForm";
+import FlavorForm from "./FlavorForm";
 import Footer from "./Footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Toggle />
       <NumberList numbers={numbers} />
       <NameForm />
+      <FlavorForm />
       <Footer />
     </div>
   );
